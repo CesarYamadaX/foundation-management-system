@@ -1,0 +1,121 @@
+.donor-details-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .donor-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .back-link {
+    color: #3498db;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .back-link:hover {
+    text-decoration: underline;
+  }
+  
+  .info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .info-grid div {
+    margin-bottom: 15px;
+  }
+  
+  .info-grid label {
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  .donor-actions {
+    display: flex;
+    gap: 15px;
+    margin: 30px 0;
+  }
+  
+  .action-button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .action-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .donations-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  .donations-table th,
+  .donations-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .donations-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .interaction-card {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .interaction-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .interaction-type {
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .interaction-type.call {
+    background-color: #e3f2fd;
+    color: #1976d2;
+  }
+  
+  .interaction-type.email {
+    background-color: #e8f5e9;
+    color: #388e3c;
+  }
+  
+  .interaction-type.meeting {
+    background-color: #fff3e0;
+    color: #e65100;
+  }
+  
+  .interaction-type.event {
+    background-color: #f3e5f5;
+    color: #8e24aa;
+  }
+  
+  .next-action {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px dashed #ddd;
+    font-size: 14px;
+    color: #7f8c8d;
+  }
